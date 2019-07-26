@@ -42,7 +42,7 @@ CONFIG_LIBNL32=y
 #LIBS_c += -L/usr/local/lib
 
 # Driver interface for no driver (e.g., RADIUS server only)
-#CONFIG_DRIVER_NONE=y
+CONFIG_DRIVER_NONE=y
 
 # IEEE 802.11F/IAPP
 CONFIG_IAPP=y
@@ -132,7 +132,7 @@ CONFIG_PKCS12=y
 
 # RADIUS authentication server. This provides access to the integrated EAP
 # server from external hosts using RADIUS.
-#CONFIG_RADIUS_SERVER=y
+CONFIG_RADIUS_SERVER=y
 
 # Build IPv6 support for RADIUS operations
 CONFIG_IPV6=y
@@ -145,14 +145,14 @@ CONFIG_IPV6=y
 #CONFIG_DRIVER_RADIUS_ACL=y
 
 # IEEE 802.11n (High Throughput) support
-#CONFIG_IEEE80211N=y
+CONFIG_IEEE80211N=y
 
 # Wireless Network Management (IEEE Std 802.11v-2011)
 # Note: This is experimental and not complete implementation.
 #CONFIG_WNM=y
 
 # IEEE 802.11ac (Very High Throughput) support
-#CONFIG_IEEE80211AC=y
+CONFIG_IEEE80211AC=y
 
 # IEEE 802.11ax HE support
 # Note: This is experimental and work in progress. The definitions are still
