@@ -270,6 +270,7 @@ CFLAGS += -DCONFIG_SAE
 OBJS += ../src/common/sae.o
 NEED_ECC=y
 NEED_DH_GROUPS=y
+NEED_AES_OMAC1=y
 endif
 
 ifdef CONFIG_DPP
